@@ -1,0 +1,22 @@
+{
+  "name": "ebooksalesapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "manjit singh",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "stripe": "^8.129.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
